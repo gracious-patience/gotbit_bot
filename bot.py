@@ -137,9 +137,7 @@ def start(update, context):
 
 def help(update, context):
     """Send a message when the command /help is issued."""
-    
-
-
+   
     text = send_stats()
     update.message.reply_text(text)
 
